@@ -1,0 +1,64 @@
+.applications {
+    padding: 30px;
+    font-size: 18px;
+}
+
+.table_feedback {
+    border-collapse: collapse;
+    margin-left: 30px;
+}
+
+.table_feedback tr {
+    text-align: center;
+    border: 1px solid #454545;
+}
+
+.table_feedback tr:hover {
+    cursor: pointer;
+    background-color: #f9a942;
+}
+
+.table_feedback td {
+    padding: 14px;
+    border: 1px solid #454545;
+}
+
+.done:hover {
+    background-color: pink;
+}
+
+.block {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.block-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.block h3 {
+    text-align: center;
+}
+
+.answered {
+    font-size: 16px;
+    margin-top: 20px;
+}

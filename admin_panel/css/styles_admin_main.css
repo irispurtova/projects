@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'gotham pro';
+    src: url('../../fonts/gothampro.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0px;
+    font-family: 'gotham pro';
+}
+
+.admin_header_title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 1px solid #454545;
+}
+
+.hello a {
+    text-decoration: none;
+    color: #f9a942;
+}
+
+.hello a:hover {
+    opacity: 0.75;
+}
+
+.inner {
+    display: flex;
+    /* border-bottom: 1px solid #454545; */
+}
+
+.sidebox {
+    width: 20%;
+}
+
+.sidebox .box a {
+    text-decoration: none;
+    color: black;
+}
+
+.box:hover {
+    background-color: #f4c367;
+}
+
+.input {
+    width: 80%;
+    border-left: 1px solid #454545;
+}
+
+.sidebox p {
+    padding: 20px 10px 20px 10px;
+    border-bottom: 1px solid #454545;
+}
+
+.welcome {
+    padding: 30px;
+}

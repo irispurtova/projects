@@ -1,0 +1,83 @@
+.upd_form {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.upd_form input[type="text"] {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 10px;
+    border: solid 1px #4b4b4b;
+    border-radius: 4px;
+    width: 500px;
+}
+
+.upd_form input[type="number"] {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 10px;
+    border: solid 1px #4b4b4b;
+    border-radius: 4px;
+    width: 500px;
+}
+
+.upd_form input[type="submit"] {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 10px;
+    border: solid 1px #4b4b4b;
+    border-radius: 4px;
+}
+
+.upd_form input[type="file"] {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 10px;
+    border: solid 1px #4b4b4b;
+    border-radius: 4px;
+    width: 500px;
+}
+
+.upd_form input[type="submit"]:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.upd_form textarea {
+    resize: none;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: -10px;
+    width: 500px;
+}
+
+.tbl {
+    margin: 0px;
+}
+
+.tbl td {
+    padding: 5px 20px 5px 0px;
+}
+
+.back {
+    text-decoration: none;
+    color: black;
+}
+
+.back:hover {
+    color: #f9a942;
+}
+
+.success {
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+#result {
+    margin-top: 20px;
+}
