@@ -1,0 +1,154 @@
+#hider {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+#hider:checked + .filter {
+    display: block;
+    display: flex;
+    flex-direction: column;
+}
+
+#clickme {
+    cursor: pointer;
+}
+
+.filter {
+    background-color: white;
+    padding: 0px 30px 30px 30px;
+    display: none;
+}
+
+#sortButton, #sortAreaButton {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #454545;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#filterForm {
+    background-color: white;
+    width: 100%;
+}
+
+#filterForm h2 {
+    padding: 17px 0px 0px 30px;
+    color: #454545;
+}
+
+.inner .filter .filter-blocks {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.inner .filter .filter-blocks .filter-price {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.inner .filter .filter-blocks .filter-price .filter-price-header {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #aab0c2;
+    font-weight: bold;
+}
+
+.inner .filter .filter-blocks .filter-price .filter-price-inputs {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.inner .filter .filter-blocks .filter-square {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.inner .filter .filter-blocks .filter-square .filter-square-header {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #aab0c2;
+    font-weight: bold;
+}
+
+.inner .filter .filter-blocks .filter-square .filter-square-inputs {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.inner .filter .filter-buttons {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+#resultContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+#resultContainer .project {
+    height: 100%;
+    width: 545px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#resultContainer .project .pic_text {
+    padding: 314px 20px 10px 20px;
+    display: flex;
+    align-items: baseline;
+}
+
+.button {
+    padding: 4px 10px;
+    border-radius: 5px;
+    background-color: #f3c368;
+}
+
+#resultContainer .project .text {
+    background-color: white;
+    color: black;
+}
+
+#resultContainer .project .text p {
+    padding: 10px;
+    margin: 0px;
+}
+
+#filterForm input[type="number"] {
+    font-size: 20px;
+    width: 170px;
+}
+
+.filter-buttons button[type="button"] {
+    font-size: 16px;
+    padding: 4px 10px;
+    background-color: #f3c368;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.sort {
+    display: flex;
+    flex-direction: row;
+    margin-right: 0px;
+    padding-top: 20px;
+}
+
+.sort #sortButton, #sortAreaButton {
+    margin-right: 15px;
+}

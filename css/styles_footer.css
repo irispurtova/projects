@@ -1,0 +1,63 @@
+.footer {
+    background-color: #4b4b4b;
+}
+
+.footer_in {
+    width: 70%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text_footer {
+    margin-left: 0px;
+}
+
+.text_footer p {
+    padding-top: 8px;
+    color: #b6b6b5;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    margin-right: 0px;
+}
+
+.icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/icons/icons.png);
+    background-size: cover;
+    margin: 6px;
+    padding: 0px;
+    opacity: .5;
+}
+
+.icon a {
+    display: block;
+    height: 100%;
+}
+
+.icon:hover {
+    opacity: 100%;
+}
+
+.icon--vk {
+    background-position: 0px 0px;
+}
+
+.icon--youtube {
+    background-position: 0px -80px;
+}
+
+.icon--whatsup {
+    background-position: 0px -40px;
+}

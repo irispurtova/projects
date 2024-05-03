@@ -1,0 +1,142 @@
+.advantages {
+    text-align: center;
+    width: 62%;
+    padding-bottom: 80px;
+}
+
+.advantages h1 {
+    font-size: 12px;
+    letter-spacing: 1px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #aab0c2;
+}
+
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blocks .block {
+    width: 30%;
+    padding: 12px;
+    margin: 0px;
+}
+
+.blocks .block p {
+    color: #ffc461;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+/* смена цвета шрифта */
+.blocks .block--1:hover p {
+    color: black;
+}
+
+.blocks .block--2:hover p {
+    color: black;
+}
+
+.blocks .block--3:hover p {
+    color: black;
+}
+
+.blocks .block--4:hover p {
+    color: black;
+}
+
+.blocks .block--5:hover p {
+    color: black;
+}
+
+.blocks .block--6:hover p {
+    color: black;
+}
+
+/* смена цвета фона блока */
+.blocks .block:hover {
+    background-color: #f4c367;
+}
+
+.blocks .block .image {
+    background-image: url(../img/block/block.png);
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 95px;
+}
+
+.blocks .block--1 {
+    border-right: solid 1px #ebebeb;
+    border-bottom: solid 1px #ebebeb;
+}
+
+/* вставка картинок */
+.blocks .block .image--img2 {
+    background-position: 50% -190px;
+}
+
+.blocks .block .image--img3 {
+    background-position: 50% -380px;
+}
+
+.blocks .block .image--img4 {
+    background-position: 50% -570px;
+}
+
+.blocks .block .image--img5 {
+    background-position: 50% -760px;
+}
+
+.blocks .block .image--img6 {
+    background-position: 50% -950px;
+}
+
+/* смена цвета картинок */
+.blocks .block--1:hover .image--img1 {
+    background-position: 50% -95px;
+}
+
+.blocks .block--2:hover .image--img2 {
+    background-position: 50% -285px;
+}
+
+.blocks .block--3:hover .image--img3 {
+    background-position: 50% -475px;
+}
+
+.blocks .block--4:hover .image--img4 {
+    background-position: 50% -665px;
+}
+
+.blocks .block--5:hover .image--img5 {
+    background-position: 50% -855px;
+}
+
+.blocks .block--6:hover .image--img6 {
+    background-position: 50% -1045px;
+}
+
+/* вставка границ */
+.blocks .block--2 {
+    border-right: solid 1px #ebebeb;
+    border-bottom: solid 1px #ebebeb;
+}
+
+.blocks .block--3 {
+    border-bottom: solid 1px #ebebeb;
+}
+
+.blocks .block--4 {
+    border-right: solid 1px #ebebeb;
+}
+
+.blocks .block--5 {
+    border-right: solid 1px #ebebeb;
+}

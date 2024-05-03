@@ -1,0 +1,86 @@
+.modal_question {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 10;
+}
+
+.modal_question .modal_question-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #555555;
+    border-radius: 5px;
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal_question .modal_question-dialog .close {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+.modal_question .modal_question-dialog .modal_question-content .modal_question-header .modal_question-title {
+    background-color: #404040;
+    font-size: 24px;
+    padding: 1.2em 34px;
+    color: white;
+}
+
+#ques {
+    display: flex;
+    flex-direction: column;
+}
+
+#ques .inp {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+#ques .inp input[type="text"] {
+    width: 400px;
+    padding: 1.4em 1.5em;
+    border: 0;
+    background-color: #fff;
+    color: #494949;
+    border-radius: .4em;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 400px;
+    height: 200px;
+    resize: none;
+    padding: 1.4em 1.5em;
+    border: 0;
+    background-color: #fff;
+    color: #494949;
+    border-radius: .4em;
+    margin-bottom: 20px;
+}
+
+#ques .sub input[type="submit"] {
+    background: #f3c368;
+    color: #464646;
+    font: 400 1em/1.2em GothamPro,sans-serif;
+    padding: 1.2em 3.4em;
+    font-size: 1.14em;
+    font-weight: 700;
+    border: 0;
+    border-radius: .4em;
+    margin-bottom: 10px;
+}
+
+#ques .sub input[type="submit"]:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,112 @@
+.inner {
+    background-color: #f3f3f3;
+    color: #454545;
+    padding-bottom: 40px;
+}
+
+.inner--1 {
+    width: 60%;
+}
+
+.inner h1 {
+    font-weight: 100;
+    color: #454545;
+    line-height: 1.85;
+    padding-top: 20px;
+}
+
+.office {
+    width: 90%;
+}
+
+.snab {
+    width: 90%;
+}
+
+.contacts-teleph {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.contacts-email {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.contacts-manager {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.contacts-time {
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.foto {
+    background-image: url(../img/contacts/foto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 101px;
+    height: 101px;
+}
+
+.women {
+    display: flex;
+}
+
+.card {
+    width: 90%;
+    padding: 35px 42px 28px 42px;
+    width: 50%;
+    overflow: hidden;
+}
+
+.card--1 h3 {
+    margin-bottom: 24px;
+}
+
+.card--1 h4 {
+    margin-bottom: 24px;
+    padding-top: 24px;
+}
+
+.card--2 {    
+    background-color: white;
+}
+
+.card--2 h3 {
+    padding-bottom: 20px;
+}
+
+.descr {
+    color: #979797;
+    width: 50%;
+    float: left;
+}
+
+.women-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.cont {
+    color: #a0663f;
+    width: 50%;
+    float: right;
+}
+
+.cont--44 {
+    color: #454545;
+}
+
+.card--2 .text {
+    padding-top: 20px;
+    line-height: 2;
+}
+
+.gg:hover {
+    opacity: 0.75;
+}

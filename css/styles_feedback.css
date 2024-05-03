@@ -1,0 +1,88 @@
+.feedback {
+    background-color: white;
+    padding: 31px 52px 0px 52px;
+    margin-top: 30px;
+    line-height: 2;
+    text-align: center;
+    width: 37%;    
+    height: 520px;
+}
+
+.feedback h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.feedback .rep{
+    -webkit-line-clamp: 6; /* Число отображаемых строк */
+    display: -webkit-box; /* Включаем флексбоксы */
+    -webkit-box-orient: vertical; /* Вертикальная ориентация */
+    text-align: left;
+    height: 170px;
+    overflow: hidden; /* Обрезаем всё за пределами блока */
+    font-size: 14px;
+}
+
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fbck {
+    color: #feaf24;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.link a:hover {
+    opacity: 0.75;
+}
+
+#openFeedback {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 10;
+}
+
+#openFeedback .modal_feedback-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 5px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+#openFeedback .modal_feedback-dialog .close {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
+#openFeedback .modal_feedback-dialog .modal_feedback-content {
+    max-height: 80vh;
+    overflow-y: auto;
+    text-align: center;
+}
+
+#openFeedback .modal_feedback-dialog .modal_feedback-content .okno_feedback img{
+    padding: 20px 0px;
+}
+
+#openFeedback .modal_feedback-dialog .modal_feedback-content .okno_feedback h3 {
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+#openFeedback .modal_feedback-dialog .modal_feedback-content .okno_feedback .rep {
+    padding: 0px 20px 20px 20px;
+}

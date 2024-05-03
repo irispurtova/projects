@@ -1,0 +1,14 @@
+.project {
+    width: 545px;
+    margin: 20px;
+    background-color: white;
+}
+
+.project .img {
+    height: 100%;
+}
+
+.pic_text {
+    padding: 324px 20px 20px 20px;
+    font-size: 20px;
+}

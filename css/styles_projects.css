@@ -1,0 +1,16 @@
+.inner {
+    background-color: #f3f3f3;
+    color: #454545;
+    padding-bottom: 40px;
+}
+
+.inner--1 {
+    width: 70%;
+}
+
+.inner h1 {
+    font-weight: 100;
+    color: #454545;
+    line-height: 1.85;
+    padding-top: 20px;
+}

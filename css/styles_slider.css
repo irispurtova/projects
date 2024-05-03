@@ -1,0 +1,87 @@
+.slider {
+    position: relative;
+    width: 1280px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    width: 1280px;
+    height: 650px;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.text-slider {
+    font-size: 80px;
+    width: 70%;
+    color: white;
+    font-weight: 100;
+    padding-top: 200px;
+}
+
+.area-text {
+    margin-left: 192px;
+    margin-top: 30px;
+    border: none;
+    margin-bottom: 20px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+.area-text thead th {
+    font-weight: bold;
+    text-align: left;
+    border: none;
+    padding: 10px 15px;
+    background: #EDEDED;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+.area-text tbody td {
+    text-align: left;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    vertical-align:middle;
+}
+
+.area-text tbody tr:last-child td:first-child {
+    border-radius: 8px 0 0 8px;
+}
+
+.area-text tbody tr:last-child td:last-child {
+    border-radius: 0 8px 8px 0;
+}
+
+.area-left {
+    background-color: white;
+}
+
+.area-right {
+    background-color: #454545;
+    color: white;
+}
+
+.blocks--1 {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 300px;
+    margin-left: 50px;
+}
+
+.block-color {
+    margin-bottom: 10px;
+}
